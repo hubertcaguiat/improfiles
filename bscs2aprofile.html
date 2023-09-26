@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>BSCS 2A - Profiles</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+      }
+
+      .team-grid-head {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+      }
+
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        justify-content: center;
+      }
+
+      .team-member {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 2px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .team-member img {
+        max-width: 100%;
+        width: 100%;
+      }
+
+      .team-member a {
+        background-color: #ee00f3de; /* Change this to your desired background color */
+        color: #fff; /* Text color on the link */
+        text-decoration: none; /* Remove underline from the link */
+        width: 100%;
+        display: inline-block; /* Display the link as a block element */
+      }
+
+      .team-member a:hover {
+        text-decoration: underline;
+      }
+
+      .team-grid-head h2 {
+        margin-top: 10px;
+        font-size: 1.2rem;
+      }
+
+      .team-grid-head p {
+        color: #888;
+        margin-top: 5px;
+      }
+
+      @media screen and (max-width: 400px) {
+        /* Mobile */
+        .team-grid {
+          grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+          padding: 5px 25px; /* Adjust padding for mobile screens */
+        }
+
+        .team-grid-head {
+          grid-template-columns: repeat(1, 1fr); /* 4 columns for desktop */
+          padding: 5px 25px; /* Adjust padding for desktop screens */
+        }
+      }
+
+      @media screen and (min-width: 401px) and (max-width: 650px) {
+        /* Tablet */
+        .team-grid {
+          grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+          padding: 5px 40px; /* Adjust padding for tablet screens */
+        }
+
+        .team-grid-head {
+          grid-template-columns: repeat(1, 1fr); /* 4 columns for desktop */
+          padding: 5px 40px; /* Adjust padding for desktop screens */
+        }
+      }
+
+      @media screen and (min-width: 651px) and (max-width: 1024px) {
+        /* Tablet */
+        .team-grid {
+          grid-template-columns: repeat(3, 1fr); /* 2 columns for tablets */
+          padding: 5px 40px; /* Adjust padding for tablet screens */
+        }
+
+        .team-grid-head {
+          grid-template-columns: repeat(1, 1fr); /* 4 columns for desktop */
+          padding: 5px 40px; /* Adjust padding for desktop screens */
+        }
+      }
+
+      @media screen and (min-width: 1025px) {
+        /* Desktop */
+        .team-grid {
+          grid-template-columns: repeat(4, 1fr); /* 4 columns for desktop */
+          padding: 5px 90px; /* Adjust padding for desktop screens */
+        }
+
+        .team-grid-head {
+          grid-template-columns: repeat(1, 1fr); /* 4 columns for desktop */
+          padding: 5px 90px; /* Adjust padding for desktop screens */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="team-grid-head">
+      <h2>Meet my Students in IM</h2>
+      <p>
+        This profile page is a tribute to the dedicated and creative individuals
+        who have been part of our educational journey, demonstrating their
+        skills and accomplishments in various fields. Get to know the future
+        leaders, innovators, and experts who have made a significant impact on
+        our academic community.
+      </p>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-member">
+        <img
+          src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://hubertcaguiat.github.io/demoonly/">
+          <h5>HUBERT I. CAGUIAT</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://reynierapurillo.github.io/">
+          <h5>Apurillo, Reynier</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://aronbscs.github.io/AronBelen.github.io/">
+          <h5>Belen, Aron Josh</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://bellaaaaa97.github.io/arabella.github.io/">
+          <h5>Bernardo, Arabella</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://yzahborja.github.io/portfolio.github.io/YBProfile/">
+          <h5>Borja, Yzah</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://lancebrioso.github.io/">
+          <h5>Brioso, Mark Lance</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://benimamaru.github.io/Codera.github.io/">
+          <h5>Codera, Alfredo</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://nilrosecostas.github.io"> <h5>Costas, Nilrose</h5></a>
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://decastrokristina.github.io/">
+          <h5>De Castro, Kristina Cassandra</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://jeremiahescleto.github.io/">
+          <h5>Escleto, Jeremiah</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://markpete0207.github.io/">
+          <h5>Florentino, Mark Peter</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://forteojimwell.github.io/jimwellforteo28.github.io/">
+          <h5>Forteo, Jimwell</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://rhonbie.github.io/index1.html">
+          <h5>Galla, Carl Rhonbie</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a
+          href="https://vincentgayta-1006.github.io/JhonVincentGayta.github.io/"
+        >
+          <h5>Gayta, Jhon Vincent</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://ericearl23.github.io/">
+          <h5>Gepilano, Eric Earl</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://harriethambre.github.io/harrietinroduction.github.io/">
+          <h5>Hambre, Harriet</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a
+          href="https://vieve16.github.io/profile.github.io/MyProfile/PersonalPortfolio/MyPortfolio/"
+        >
+          <h5>Hanlo, Giselle Genevieve</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://malabananmarcelo.github.io/">
+          <h5>Malabanan, Marcelo</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://jaymark2604.github.io/"> <h5>Moreno, Jaymark</h5></a>
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://strawhatseyberrr.github.io/VonSMosquite.github.io/">
+          <h5>Mosquite, Von Syver</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://senpaiporo.github.io/MulletMarlon.github.io/">
+          <h5>Mullet, Marlon Jr</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://verlynjade.github.io/VerlynJadeObina/">
+          <h5>Obina, Verlyn Jade</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://errie-chan.github.io/OmongosDizzerrieMae.githhub.io/">
+          <h5>Omongos, Dizzerrie Mae</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a
+          href="https://aaliyahfelicitysanchez.github.io/aaliyahfelicitysanchez/"
+        >
+          <h5>Sanchez, Aaliyah Felicity</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://deybidemir.github.io/davidemirsantos/">
+          <h5>santos, davidemir</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://im-pau.github.io/Paulo.Silao.github.io/">
+          <h5>Silao, Paulo</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://plmunjans.github.io/Introduction/">
+          <h5>Sison, Janssen Ainsley</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://miguellocubat.github.io/christiantabucol.github.io/">
+          <h5>Tabucol, Christian Joshua Miguel</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://cs-angelo.github.io/JohnAngeloTarrozaInfo.github.io/">
+          <h5>Tarroza, John Angelo</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://kimkimtorres.github.io/kim.github.com/KT">
+          <h5>TORRES, KIMBERLY</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://luvshr.github.io/shairaulam/">
+          <h5>Ulam, Shaira</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://faulxen.github.io/SUERTE.github.io/">
+          <h5>suerte, jhon arthur</h5></a
+        >
+      </div>
+
+      <div class="team-member">
+        <img
+          src="https://source.unsplash.com/random"
+          width="150"
+          height="250"
+          alt="Team Member 1"
+        />
+        <a href="https://faulxen.github.io/SUERTE.github.io/">
+          <h5>suerte, jhon arthur</h5></a
+        >
+      </div>
+
+      ABARCAR, DYAN<br />
+      ADAN, CRESALDE DANNA<br />
+      AGAPITO, PATRICIA ANNE<br />
+      Aguinaldo, Rekert<br />
+      Angeles, Angelo<br />
+      Arcilla, Maria Rhine<br />
+      Bartolata, Vianca<br />
+      BraÃ±anola, Jason<br />
+      dugenia, dino<br />
+      Estologa, Jara<br />
+      Estrada, Angelo<br />
+      Fabricante, Cristan<br />
+      Fuentes, Rosalie<br />
+      Hicao, Melvin<br />
+      Jamito, John Kervy<br />
+      Juliano, Justin Aaron<br />
+      lerit, algie<br />
+      Majesterio, Matthew James<br />
+
+      Nieva, April<br />
+
+      Omongos, Dizzerrie Mae Primero, Marc Steven<br />
+
+      Vega, Denzel<br />
+      Villardo, Jojit<br />
+    </div>
+  </body>
+</html>
